@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*** Header menu***/
+.header-topo{
+    padding: 20px 0;
+}
+#header-container{
+    margin: 0 auto;
+}
+#logo .img-logo{
+    display: block;
+    float: left;
+    margin-left: 100px;
+}
+.menu ul{
+    margin-right: 100px;
+    list-style-type: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+    line-height: 40px;
+}
+.menu li a{
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #242424;
+}
+.clearBoth:before, .clearBoth:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*** Banner ***/
+.principal{
+    width: 100%;
+    padding: 200px 0;
+    text-align: center;
+    color: #ebebeb;
+    text-transform: uppercase;
+    background-image: url(../imagens/slide-bg1.jpg);
+    background-size: cover;
+    opacity: 0.9;
+}
+.principal h1{
+    font-size: 3em;
+}
+
+/*** Main ***/
+.formulario{
+    width: 345px;
+    height: 605px;
+    margin-left: 100px;
+    padding: 15px;
+    background-color: #393939;
+    box-sizing: border-box;
+    position: relative;
+    top: -30px;
+    left: 0;
+    box-shadow: 5px 5px 3px #242424;
+    float: left;
+}
+.formulario h2{
+    color: #d8a16c;
+    margin-bottom: 30px;
+}
+.input{
+    border: 1px solid #e7e7e7;
+    border-color: #7d7d7d;
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.input input{
+    background: transparent;
+    color: #ebebeb;
+    padding: 10px;
+    font-weight: 500px;
+    outline: none;
+}
+.form-controle{
+    border: none;
+    width: 100%;
+}
+::-webkit-input-placeholder{
+    color: #ebebeb;
+    font-size: 16px;
+}
+
+textarea{
+    background: transparent;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 300px;
+    min-height: 100px;
+    display: block;
+    overflow: auto;
+    cursor: text;
+    outline: none;
+    color: #ebebeb;
+    resize: none;
+}
+.input button{
+    background-color: #d8a16c;
+    padding: 20px;
+    color: #242424;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.formulario h3, h2{
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+/*** Conteudo section ***/
+.conteudo-artigo{
+    margin-top: 60px;
+    width: 760px;;
+    float: left;
+    margin-left: 30px;
+}
+.conteudo-texto{
+    float: left;
+    width: 370px;
+}
+.conteudo-texto p{
+    margin-bottom: 1.875em;
+    line-height: 1.875em;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    color: #393939;
+}
+.conteudo-texto h3{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.conteudo-texto h5{
+    color: #e7272d;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: inherit;
+}
+#assinatura{
+    margin-bottom: 40px;
+}
+#mais a{
+    background-color: #d8a16c;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 60px;
+    border-radius: 50px;
+}
+.conteudo-imagen{
+    width: 370px;
+    float: right;
+}
+.conteudo-imagen .head-chef{
+    position: relative;
+    top: 83px;
+    right: 80px;
+}
+
+/* Secaio cardapio */
+
+.cardapio{
+    background-color: #f8f8f8;
+    padding: 60px 0 5px 0;
+}
+.cardapio-container{
+    width: 86%; 
+    margin: 0 auto;  
+}
+#cardapio-texto h3{
+    color: #7d7d7d;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 600;
+}
+#cardapio-texto h1{
+    color: #484848;
+    font-size: 75px;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+#cardapio-texto h4{
+    color: #e7272d;
+    font-family: inherit;
+    font-size: 16px;
+}
+#cardapio-texto{
+    width: 60%;
+    background: #f8f8f8 url(../imagens/about-special-menu-bg.png) repeat-y right top;
+}
+.image-area{
+    float: left;
+    margin: 10px;
+}
+.image-area img{
+    border-radius: 5px;
+}
+.item-text h4{
+    color: #e7272d;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.item-text p {
+    font-size: 15px;
+    color: #393939;
+    width: 470px;
+    margin-top: 10px;
+}
+.preco{
+    border: 1px solid #d4d4d4;
+    border-radius: 50%;
+    width: 73px;
+    height: 73px;
+    float: right;
+    position: relative;
+    top: -60px;
+    right: 80px;
+    line-height: 70px;
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
